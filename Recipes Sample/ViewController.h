@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSMutableData *_responseData;
+}
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *progressBar;
 
 
 @end
