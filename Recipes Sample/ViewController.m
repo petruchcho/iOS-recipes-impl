@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RecipesViewController.h"
 
 @interface ViewController ()
 
@@ -57,7 +58,12 @@
 
 
 - (void)dataLoadedSuccessfully:(NSDictionary *)jsonData {
+    NSArray *recipes = [jsonData objectForKey:@"recipes"];
+    NSLog(@"SUCCESS: %@", recipes);
     
+    RecipesViewController *recipesViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RecipesViewController"];
+    recipesViewController.recipes = recipes;
+    [self presentViewController:recipesViewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

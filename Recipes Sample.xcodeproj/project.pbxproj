@@ -14,6 +14,8 @@
 		CE80D6B41E7CEFED0022F834 /* Recipes_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE80D6B21E7CEFED0022F834 /* Recipes_Sample.xcdatamodeld */; };
 		CE80D6B61E7CEFED0022F834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE80D6B51E7CEFED0022F834 /* Assets.xcassets */; };
 		CE80D6B91E7CEFED0022F834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80D6B71E7CEFED0022F834 /* LaunchScreen.storyboard */; };
+		CE80D6C61E7D082A0022F834 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80D6C51E7D082A0022F834 /* RecipesViewController.m */; };
+		CE80D6C91E7D13130022F834 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80D6C81E7D13130022F834 /* RecipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		CE80D6B51E7CEFED0022F834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE80D6B81E7CEFED0022F834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE80D6BA1E7CEFED0022F834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE80D6C41E7D082A0022F834 /* RecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesViewController.h; sourceTree = "<group>"; };
+		CE80D6C51E7D082A0022F834 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
+		CE80D6C71E7D13130022F834 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		CE80D6C81E7D13130022F834 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				CE80D6AA1E7CEFED0022F834 /* AppDelegate.m */,
 				CE80D6AC1E7CEFED0022F834 /* ViewController.h */,
 				CE80D6AD1E7CEFED0022F834 /* ViewController.m */,
+				CE80D6C41E7D082A0022F834 /* RecipesViewController.h */,
+				CE80D6C51E7D082A0022F834 /* RecipesViewController.m */,
+				CE80D6C71E7D13130022F834 /* RecipeViewController.h */,
+				CE80D6C81E7D13130022F834 /* RecipeViewController.m */,
 				CE80D6AF1E7CEFED0022F834 /* Main.storyboard */,
 				CE80D6B51E7CEFED0022F834 /* Assets.xcassets */,
 				CE80D6B71E7CEFED0022F834 /* LaunchScreen.storyboard */,
@@ -155,7 +165,9 @@
 			files = (
 				CE80D6AE1E7CEFED0022F834 /* ViewController.m in Sources */,
 				CE80D6AB1E7CEFED0022F834 /* AppDelegate.m in Sources */,
+				CE80D6C91E7D13130022F834 /* RecipeViewController.m in Sources */,
 				CE80D6A81E7CEFED0022F834 /* main.m in Sources */,
+				CE80D6C61E7D082A0022F834 /* RecipesViewController.m in Sources */,
 				CE80D6B41E7CEFED0022F834 /* Recipes_Sample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
