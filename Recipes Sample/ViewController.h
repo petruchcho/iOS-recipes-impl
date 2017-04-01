@@ -14,6 +14,8 @@
 }
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *progressBar;
 
+@property (weak, nonatomic) IBOutlet UITextView *errorText;
+@property (weak, nonatomic) IBOutlet UIButton *retryButton;
 
 @end
 

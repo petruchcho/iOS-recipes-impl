@@ -56,7 +56,9 @@
 {
     RecipeViewController *recipeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RecipeViewController"];
     recipeViewController.recipe = self.recipes[indexPath.item];
+    
     [self presentViewController:recipeViewController animated:YES completion:nil];
+    //[self.navigationController pushViewController:recipeViewController animated:YES];
 }
 
 /*

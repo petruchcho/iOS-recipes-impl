@@ -16,6 +16,7 @@
 		CE80D6B91E7CEFED0022F834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80D6B71E7CEFED0022F834 /* LaunchScreen.storyboard */; };
 		CE80D6C61E7D082A0022F834 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80D6C51E7D082A0022F834 /* RecipesViewController.m */; };
 		CE80D6C91E7D13130022F834 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80D6C81E7D13130022F834 /* RecipeViewController.m */; };
+		CE80D6D91E8F88A50022F834 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE80D6D71E8F88A50022F834 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CE80D6C51E7D082A0022F834 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
 		CE80D6C71E7D13130022F834 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
 		CE80D6C81E7D13130022F834 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		CE80D6D81E8F88A50022F834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		CE80D69A1E7CEFEC0022F834 = {
 			isa = PBXGroup;
 			children = (
+				CE80D6D71E8F88A50022F834 /* Localizable.strings */,
 				CE80D6A51E7CEFED0022F834 /* Recipes Sample */,
 				CE80D6A41E7CEFED0022F834 /* Products */,
 			);
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE80D6B91E7CEFED0022F834 /* LaunchScreen.storyboard in Resources */,
+				CE80D6D91E8F88A50022F834 /* Localizable.strings in Resources */,
 				CE80D6B61E7CEFED0022F834 /* Assets.xcassets in Resources */,
 				CE80D6B11E7CEFED0022F834 /* Main.storyboard in Resources */,
 			);
@@ -191,6 +195,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		CE80D6D71E8F88A50022F834 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80D6D81E8F88A50022F834 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -198,6 +210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -246,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -325,6 +339,7 @@
 				CE80D6BF1E7CEFED0022F834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
